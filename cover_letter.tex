@@ -1,0 +1,27 @@
+\documentclass{article}
+
+\usepackage[a4paper,
+top=2cm,
+right=2cm,
+bottom=2cm,
+left=2cm,
+]{geometry}
+
+\usepackage{blindtext}
+\usepackage{multicol}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=cyan
+}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\input{src/sections/title}
+\input{src/sections/addresses}
+\input{src/sections/body}
+
+\end{document}
